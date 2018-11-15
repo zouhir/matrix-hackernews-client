@@ -54,12 +54,14 @@ class List extends Component {
         <header>
           <div class="top">PREACT DIGITAL RAIN HN</div>
           <div class="bottom">
-            <button class="load-more" onClick={this.loaderMore}>
-              Load More Stories
-            </button>
-            <span class="meta">
-              Loaded: {state.stories.length} / {state.items.length}
-            </span>
+            <div class="left">
+              <button class="load-more" onClick={this.loaderMore}>
+                Load More Stories
+              </button>
+              <span class="meta">
+                Loaded: {state.stories.length} / {state.items.length}
+              </span>
+            </div>
             <div class="right">
               <a
                 href="https://github.com/zouhir/preact-digital-rain-hn"
