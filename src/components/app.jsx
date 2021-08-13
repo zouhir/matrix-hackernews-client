@@ -1,13 +1,12 @@
-import "./style";
 import { Component } from "preact";
 
-import RainCanvas from "./components/rain-canvas";
-import List from "./components/list";
+import RainCanvas from "./rain-canvas";
+import List from "./list";
 
 export default class App extends Component {
   render() {
     return (
-      <div id="app">
+      <>
         <RainCanvas />
         <List />
         <a
@@ -18,7 +17,7 @@ export default class App extends Component {
         >
           Rain canvas credit: [codepen]
         </a>
-      </div>
+      </>
     );
   }
 }

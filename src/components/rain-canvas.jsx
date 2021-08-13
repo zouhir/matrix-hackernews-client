@@ -1,10 +1,10 @@
-import { Component, h } from "preact";
+import { Component } from "preact";
 
-import RainCanvasWorker from "worker-loader!../workers/rain-canvas";
+import RainCanvasWorker from "../workers/rain-canvas.js?worker";
 
 const rcWorker = new RainCanvasWorker();
 
-class RainCanvas {
+class RainCanvas extends Component {
   componentDidMount() {
     let canvas = this.base;
     let offscreenCanvas = canvas.transferControlToOffscreen();

@@ -1,4 +1,4 @@
-# preact-digital-rain-hn
+# Matrix Hackernews Client
 > HN Demo app renders 2D canvas in web worker - https://digital-rain-hn.zouhir.codes
 
 ## About

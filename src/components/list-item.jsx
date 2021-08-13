@@ -1,5 +1,4 @@
-import { Component, h } from "preact";
-import { POINT_CONVERSION_COMPRESSED } from "constants";
+import { Component } from "preact";
 
 class ListItem extends Component {
   render(props, state) {
